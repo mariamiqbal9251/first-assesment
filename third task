@@ -1,0 +1,25 @@
+//Name Cases: Store a person’s name in a variable, and then print that person’s name in lowercase, uppercase, and titlecase.
+
+//making it in lowercase
+let personName: string = " mariam iqbal "; 
+let lowerCase: string = personName.toLowerCase(); 
+console.log(lowerCase);
+
+//making it in uppercase
+let upperCase: string = personName.toUpperCase(); 
+console.log(upperCase);
+
+//making it in titlecase
+let words: string[] = personName.split(" ");
+let titleCase: string = ("");
+let m;
+
+for (m = 1; m < words.length; m++) {
+    titleCase += " " + words[m].charAt(0).toUpperCase() + words[m].slice(1).toLowerCase();
+}
+
+console.log(titleCase);
+
+
+
+
