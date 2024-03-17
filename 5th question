@@ -5,3 +5,4 @@
 let famous_person: string = "Emily Dickinson once said ";
 let msg: string = '" that it will never come again is what makes life so sweet."';
 console.log(famous_person + msg);
+
