@@ -1,0 +1,3 @@
+let xy = " Mariam  " ;
+let message = " Hello "  + xy + " would you like to learn some Python today?"; 
+console.log(message); 
