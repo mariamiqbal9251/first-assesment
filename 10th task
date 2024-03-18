@@ -1,0 +1,11 @@
+
+//in this program I have printed my favourite number
+let favNumber =9251;
+console.log("my favorite number is " + " = \t " +favNumber);
+
+//all the outputs below give the result of 8
+console.log("Addition --> 4+4" + " = " + (4+4)); //addition
+console.log("Subtraction --> 12-4" + " = " + (12-4)); //subtraction 
+console.log("Multiplication --> 4*2" + " = " + (4*2)); //multiplcation 
+console.log("Division --> 16/2" + " = " + (16/2));  //divison 
+
