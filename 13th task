@@ -1,0 +1,14 @@
+//Your Own Array: Think of your favorite mode of transportation, such as a motorcycle or a car, 
+//and make a list that stores several examples.
+// Use your list to print a series of statements about these items,
+// such as “I would like to own a Honda motorcycle.”
+
+let carsName :string[]=['Passo','Suzuki Swift', 'Black Honda Civic', 'Vitz', 'Black Prado']
+let msg: string = "I would love to drive a "
+let msg2: string =" one day ";
+console.log(msg + carsName[0] +msg2);
+console.log(msg + carsName[1] +msg2);
+console.log(msg + carsName[2] +msg2);
+console.log(msg + carsName[3] +msg2);
+console.log(msg + carsName[4] +msg2);
+
