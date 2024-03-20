@@ -1,0 +1,58 @@
+//Conditional Tests: Write a series of conditional tests. 
+//Print a statement describing each test and your prediction for the results of each test. 
+//Your code should look something like this:
+
+
+//Look closely at your results, and make sure you understand why each line evaluates to True or False.
+
+// Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
+
+//1/5 tests giving true
+let car = 'subaru';
+console.log("Is car == 'subaru'? I predict True.");
+console.log(car == 'subaru');
+
+//2/5 tests giving true
+let colour = 'pink';
+console.log("Is colour == 'pink'? I predict True.");
+console.log(colour == 'pink');
+
+//3/5 tests giving true
+let drink = 'tea';
+console.log("Is drink == 'tea'? I predict True.");
+console.log(drink == 'tea');
+
+// //4/5 tests giving true
+let chairColour = 'orange';
+console.log("Is  Chair colour == 'orange'? I predict True.");
+console.log(chairColour == 'orange');
+
+// //5/5 tests giving true
+let food = 'pizza';
+console.log("Is food == 'pizza'? I predict True.");
+console.log(food== 'pizza');
+
+//1/5 tests giving false
+let car2 = 'subaru';
+console.log("Is car == 'subaru'? I predict True.");
+console.log(car2 == 'suban');
+
+//2/5 tests giving false
+let colour2 = 'pink';
+console.log("Is colour == 'pink'? I predict True.");
+console.log(colour2 == 'orange');
+
+//3/5 tests giving false
+let drink2 = 'tea';
+console.log("Is drink == 'tea'? I predict True.");
+console.log(drink2 == 'coffee');
+
+// //4/5 tests giving false
+let chairColour2 = 'orange';
+console.log("Is  Chair colour == 'orange'? I predict True.");
+console.log(chairColour2 == 'green');
+
+// //5/5 tests giving false
+let food2 = 'pizza';
+console.log("Is food == 'pizza'? I predict True.");
+console.log(food2 == 'burger');
