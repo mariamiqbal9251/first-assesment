@@ -1,0 +1,51 @@
+//More Conditional Tests: You don’t have to limit the number of tests you create to 10. 
+//If you want to try more comparisons, write more tests. 
+//Have at least one True and one False result for each of the following:
+
+//Tests for equality and inequality with strings
+ let msg1: string = "Hello mariam";
+ let msg2: string = "HELLO Mariam";
+ console.log(msg1 === msg2); //false as not equal
+ console.log(msg1!=msg2); //true as condition is correct
+
+
+//Tests using the lower case function
+let msg3: string ="mariam";
+let msg4: string ="MARIAM";
+console.log(msg3.toLowerCase() === msg4); //false as msg3 is already in lowercase
+
+
+// Numerical tests involving equality and inequality, greater than and less than, 
+//greater than or equal to, and less than or equal to
+let x=2;
+let y=8;
+
+console.log(x === y); //false
+console.log(x != y);//true
+console.log(x>y);//false
+console.log(x>=y);//false
+console.log(x<y);//true
+console.log(x<=y);//true
+
+
+// Tests using "and" and "or" operators
+let m=5;
+let s=10;
+let n=15;
+
+console.log (m < s && s < n); //both are true
+console.log (m < s && s > n); //both are false
+console.log (m < s || s > n); //one condition is true
+console.log (m > s || s > n); //both are false
+
+
+// Test whether an item is in a array
+let animals : string[]=['cat', 'dog', 'sparrow', 'horse'];
+console.log(animals.includes('buffalo'));//false
+console.log(animals.includes('dog'));//true
+
+
+//Test whether an item is not in a array
+let color: string[] =['red', 'orange', 'blue', 'pink', 'black'];
+console.log(!color.includes('grey'));//true as color not included
+console.log(!color.includes('red'));//false as it is there in list
