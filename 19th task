@@ -1,0 +1,11 @@
+
+//Dinner Guests: Working with one of the programs from Exercises 14 through 18, 
+
+let guest :string[]=['Albert','Robin', 'David'];
+console.log("I would love to have dinner with you , " + guest[0]);
+console.log("I would love to invite yo to dinner to discuss your methods , " + guest[1]);
+console.log("Would you like to have a conversation with me over dinner , " + guest[2]);
+
+//print a message indicating the number of people you are inviting to dinner.
+console.log("*****************");
+console.log("The number of people that I have invited to Dinner are " + guest.length);
