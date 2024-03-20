@@ -1,0 +1,48 @@
+//Seeing the World: Think of at least five places in the world you’d like to visit.
+
+// Store the locations in a array. Make sure the array is not in alphabetical order.
+let placesVisit: string[] =['Istanbul','Belgium', 'New Zealand','South Asia', 'Qatar']
+console.log(" Original Order ");
+console.log(placesVisit); // Print your array in its original order.
+
+
+// Print your array in alphabetical order without modifying the actual list.
+console.log(" Alphabetical Order ");
+console.log([...placesVisit].sort());
+
+//Show that your array is still in its original order by printing it.
+console.log(" Original Order ");
+console.log(placesVisit);
+
+//Print your array in reverse alphabetical order without changing the order of the original list.
+//arr. sort(). reverse()
+console.log(" Reverse Alphabetica Order ");
+console.log([...placesVisit].sort().reverse());    
+
+//Show that your array is still in its original order by printing it again.
+console.log(" Original Order ");
+console.log(placesVisit);
+
+//Reverse the order of your list. Print the array to show that its order has changed.
+console.log(" Revrese Order of Array ");
+console.log(placesVisit.reverse());
+
+//Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log(" Revrese the order of Array to bring Original ");
+console.log(placesVisit.reverse());
+
+// Sort your array so it’s stored in alphabetical order.
+console.log(" Alphabetical Order stored in that way ");
+console.log(placesVisit.sort());
+
+// Print the array to show that its order has been changed.
+console.log(" Alphabetical Order the array has changed now from Original ");
+console.log(placesVisit);
+
+//Sort to change your array so it’s stored in reverse alphabetical order.
+console.log(" Reverse lphabetical Order stored in that way ");
+console.log(placesVisit.reverse());
+
+// Print the list to show that its order has changed
+console.log(" Reverse Alphabetical Order the array has changed now from Original ");
+console.log(placesVisit);
