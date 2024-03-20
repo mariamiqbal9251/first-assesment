@@ -1,0 +1,13 @@
+//They think of something you could store in a TypeScript Object.
+// Write a program that creates Objects containing these items.
+
+let studentDetails = {
+    mameStudent: " Mariam Iqbal ",
+    Semester: " 8th ",
+    GPA:"2.8",
+ 
+}
+
+console.log(" The student Name is:" + studentDetails.mameStudent)
+console.log( " Semester enrolled in is:" + studentDetails.Semester );
+console.log( " GPA is:" + studentDetails.GPA);
