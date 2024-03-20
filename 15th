@@ -1,13 +1,8 @@
 //Changing Guest List: You just heard that one of your guests can’t make the dinner, 
 //so you need to send out a new set of invitations. You’ll have to think of someone else to invite.
 
-//• Start with your program from Exercise 14. Add a print statement at the end
- //of your program stating the name of the guest who can’t make it.
+//• Start with your program from Exercise 14. .
 
-//• Modify your list, replacing the name of the guest who can’t make it with the name of the new person
-// you are inviting.
-
-//Print a second set of invitation messages, one for each person who is still in your list.
 
 let guestName :string[]=['Albert','Robin', 'David'];
 console.log("I would love to have dinner with you , " + guestName[0]);
@@ -15,12 +10,19 @@ console.log("I would love to invite yo to dinner to discuss your methods , " + g
 console.log("Would you like to have a conversation with me over dinner , " + guestName[2]);
 console.log("****************************");
 
+//Add a print statement at the end of your program stating the name of the guest who can’t make it
+
 console.log(guestName[2] +" cant make it to the dinner ");
+console.log("****************************");
 
-let guestName2 :string[]=['Albert','Robin', 'Marie'];
-console.log("I would love to have dinner with you , " + guestName2[0]);
-console.log("I would love to invite yo to dinner to discuss your methods , " + guestName2[1]);
-console.log("Would you like to have a conversation with me over dinner , " + guestName2[2]);
+//• Modify your list, replacing the name of the guest who can’t make it with the name of the new person
+// you are inviting.
+
+guestName[2]="Maria"
 
 
+//Print a second set of invitation messages, one for each person who is still in your list.
 
+console.log("I would love to have dinner with you , " + guestName[0]);
+console.log("I would love to invite yo to dinner to discuss your methods , " + guestName[1]);
+console.log("Would you like to have a conversation with me over dinner , " + guestName[2]);
