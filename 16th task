@@ -1,14 +1,8 @@
 //More Guests: You just found a bigger dinner table, so now more space is available. 
 //Think of three more guests to invite to dinner.
 
-//• Start with your program from Exercise 15. Add a print statement to the end of your program 
-//informing people that you found a bigger dinner table.
+// Start with your program from Exercise 15. 
 
-//• Add one new guest to the beginning of your array.
-
-//• Add one new guest to the middle of your array. •
-// Use append() to add one new guest to the end of your list. • 
-//Print a new set of invitation messages, one for each person in your list.
 
 let guestName :string[]=['Albert','Robin', 'David'];
 console.log("I would love to have dinner with you , " + guestName[0]);
@@ -16,27 +10,49 @@ console.log("I would love to invite yo to dinner to discuss your methods , " + g
 console.log("Would you like to have a conversation with me over dinner , " + guestName[2]);
 console.log("****************************");
 
+//Add a print statement at the end of your program stating the name of the guest who can’t make it
+
 console.log(guestName[2] +" cant make it to the dinner ");
-
-let guestName2 :string[]=['Albert','Robin', 'Marie'];
-console.log("I would love to have dinner with you , " + guestName2[0]);
-console.log("I would love to invite yo to dinner to discuss your methods , " + guestName2[1]);
-console.log("Would you like to have a conversation with me over dinner , " + guestName2[2]);
-
-console.log("****************************");
-console.log("I have found a BIGGER DINNER TABLE");
 console.log("****************************");
 
-let newGuestForDinner : string[] = ['Alexa','Albert','Rose', 'Robin', 'Marie']
-newGuestForDinner.push("Paul");
-console.log("Please have dinner with me , " + newGuestForDinner[0]);
-console.log("Please have dinner with me , " + newGuestForDinner[1]);
-console.log("Please have dinner with me , " + newGuestForDinner[2]);
-console.log("Please have dinner with me , " + newGuestForDinner[3]);
-console.log("Please have dinner with me , " + newGuestForDinner[4]);
-console.log("Please have dinner with me , " + newGuestForDinner[5]);
+//• Modify your list, replacing the name of the guest who can’t make it with the name of the new person
+// you are inviting.
+
+guestName[2]="Maria"
 
 
+//Print a second set of invitation messages, one for each person who is still in your list.
 
+console.log("I would love to have dinner with you , " + guestName[0]);
+console.log("I would love to invite yo to dinner to discuss your methods , " + guestName[1]);
+console.log("Would you like to have a conversation with me over dinner , " + guestName[2]);
 
+//Add a print statement to the end of your program
+// informing people that you found a bigger dinner table.
 
+console.log("** I have found a Bigger Dinner table **");
+
+//Add one new guest to the beginning of your array.
+guestName.unshift("Tahseen");
+console.log(" Adding name to the Start ")
+console.log(guestName);
+
+//Add one new guest to the middle of your array.  
+guestName.splice(2,0,"Samar");
+console.log(" Adding name to the Middle ")
+console.log(guestName);
+
+//Use append() to add one new guest to the end of your list. 
+guestName.push("Aleena");
+console.log(" Adding name to the end ")
+console.log(guestName);
+
+//Print a new set of invitation messages, one for each person in your list.
+console.log("*******")
+console.log("You're invited for the dinner , " +guestName[0]);
+console.log("You're invited for the dinner , " +guestName[1]);
+console.log("You're invited for the dinner , " +guestName[2]);
+console.log("You're invited for the dinner , " +guestName[3]);
+console.log("You're invited for the dinner , " +guestName[4]);
+console.log("You're invited for the dinner , " +guestName[5]);
+console.log("*******")
