@@ -1,0 +1,38 @@
+//Favorite Fruit: Make a array of your favorite fruits, 
+//and then write a series of independent if statements that check for certain fruits in your array.
+
+//make a array of your three favorite fruits and call it favorite_fruits.
+
+//Write five if statements. Each should check whether a certain kind of fruit is in your array.
+// If the fruit is in your array, the if block should print a statement, such as You really like bananas!
+
+let favFruit:string[]=['Kiwi','Mango','Banana', 'Melon']
+if(favFruit.includes('Kiwi')){
+    console.log("You really Like Kiwi")
+}else{
+    console.log("No you don't like Kiwi")
+}
+
+if(favFruit.includes('Mango')){
+    console.log("You really Like Mangos")
+}else(
+    console.log("No you don't like Mango")
+)
+
+if(favFruit.includes('Banana')){
+    console.log("You really Like Banana")
+}else(
+    console.log("No you don't like Bananaa")
+)
+
+if(favFruit.includes('Strawberry')){
+    console.log("You really Like Srawberry")
+}else{
+    console.log("No you don't like strawberry")
+}
+
+if(favFruit.includes('Orange')){
+    console.log("You really Like Oranges")
+}else{
+    console.log("No you don't like Oranges")
+}
